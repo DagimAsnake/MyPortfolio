@@ -4,12 +4,6 @@ const Experience = () => {
 
     const experiences = [
         {
-            id: 14,
-            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-            alt: 'github',
-            style: 'shadow-gray-500'
-        },
-        {
             id: 1,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
             alt: 'html',
@@ -88,6 +82,12 @@ const Experience = () => {
             style: 'shadow-red-600'
         },
         {
+            id: 14,
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+            alt: 'github',
+            style: 'shadow-gray-500'
+        },
+        {
             id: 15,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
             alt: 'graphql',
@@ -123,6 +123,12 @@ const Experience = () => {
             alt: 'django',
             style: 'shadow-green-700'
         },
+        {
+            id: 21,
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+            alt: 'materialUi',
+            style: 'shadow-blue-500'
+        },
     ]
 
   return (
@@ -138,7 +144,7 @@ const Experience = () => {
                     experiences.map((expr) => {
                         return(
                             <div key={expr.id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${expr.style}`}>
-                                <img src={expr.src} alt={expr.alt} width={200} height={250} className={`w-20 mx-auto ${expr.imgStyle}`} />
+                                <img src={expr.src} alt={expr.alt} width={200} height={250} className={`w-20 mx-auto ${expr.alt === 'github' ? "bg-white rounded-full" : ''} ${expr.imgStyle}`} />
                                 <p className='mt-4 capitalize'>{expr.alt}</p>
                             </div>
                         )
