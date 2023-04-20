@@ -15,39 +15,57 @@ const Portfolio = () => {
   const portfolios = [
     {
       id:1,
-      src: Campsite
+      src: Campsite,
+      demo: '',
+      code: 'https://github.com/DagimAsnake/yelpcamp'
     },
     {
       id:2,
-      src: CourseGoal
+      src: CourseGoal,
+      demo: '',
+      code: 'https://github.com/DagimAsnake/CourseGoal'
     },
     {
       id:3,
-      src: Ecommerce
+      src: Ecommerce,
+      demo: '',
+      code: 'https://github.com/DagimAsnake/Ecommerce'
     },
     {
       id:4,
-      src: Expenses
+      src: Expenses,
+      demo: 'https://reaexpense.netlify.app/',
+      code: 'https://github.com/DagimAsnake/react-expenses'
     },
     {
       id:5,
-      src: Food
+      src: Food,
+      demo: 'https://refoodorder.netlify.app/',
+      code: 'https://github.com/DagimAsnake/react-foodOrder'
     },
     {
       id:6,
-      src: Hospital
+      src: Hospital,
+      demo: '',
+      code: 'https://github.com/DagimAsnake/hospital'
     },
     {
       id:7,
-      src: IctPark
+      src: IctPark,
+      demo: '',
+      code: 'https://github.com/DagimAsnake/ictFrontNew'
     },
     {
       id:8,
-      src: MeetUp
+      src: MeetUp,
+      demo: 'https://remeetups.netlify.app/',
+      code: 'https://github.com/DagimAsnake/react-meetUp'
     },
     {
       id:9,
-      src: Qoutes
+      src: Qoutes,
+      demo: 'https://reactqoutes.netlify.app/',
+      code: 'https://github.com/DagimAsnake/reactRouter-Quotes'
     },
   ]
 
@@ -67,8 +85,8 @@ const Portfolio = () => {
               <div key={port.id} className='shadow-md shadow-gray-600 rounded-lg'>
                 <img src={port.src} alt={port.src} className='rounded-md duration-200 hover:scale-105' />
                 <div className='flex items-center justify-center'>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                 <a href={port.demo} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' target='_blank' rel="noreferrer"> <button>Demo</button> </a>
+                 <a href={port.code} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' target='_blank' rel="noreferrer"> <button>Code</button> </a>
                 </div>
             </div>
             )
