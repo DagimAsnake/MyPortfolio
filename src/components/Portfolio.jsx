@@ -14,22 +14,22 @@ const Portfolio = () => {
 
   const portfolios = [
     {
+      id:3,
+      src: Ecommerce,
+      demo: 'https://ecommerce-b2hy.onrender.com',
+      code: 'https://github.com/DagimAsnake/Ecommerce'
+    },
+    {
       id:1,
       src: Campsite,
-      demo: '',
+      demo: 'https://campsite-lczl.onrender.com',
       code: 'https://github.com/DagimAsnake/yelpcamp'
     },
     {
       id:2,
       src: CourseGoal,
-      demo: '',
+      demo: 'https://coursegoall.netlify.app/',
       code: 'https://github.com/DagimAsnake/CourseGoal'
-    },
-    {
-      id:3,
-      src: Ecommerce,
-      demo: '',
-      code: 'https://github.com/DagimAsnake/Ecommerce'
     },
     {
       id:4,
@@ -46,7 +46,7 @@ const Portfolio = () => {
     {
       id:6,
       src: Hospital,
-      demo: '',
+      demo: 'https://hospital-ibs6.onrender.com',
       code: 'https://github.com/DagimAsnake/hospital'
     },
     {
