@@ -10,11 +10,11 @@ const cert = [
   },
   {
     id: 2,
-    src: python
+    src: UdemyPython
   },
   {
     id: 3,
-    src: UdemyPython
+    src: python
   }
 ]
 
