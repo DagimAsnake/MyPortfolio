@@ -6,11 +6,11 @@ import {Link} from 'react-scroll'
 const Home = () => {
   return (
     <div name='home' className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-            <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a Full Stack Developer</h2>
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
+            <div className='flex flex-col justify-center mb-5'>
+                <h2 className='text-4xl sm:text-7xl font-bold text-white mt-9'>I am a Full Stack Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    I have 2 years of experience building and designing software. Currently, I love to work on web application and mobile apps using technologies like React, React Native, Nodejs, Tailwind, Nextjs, Express, MaterialUi and some other more.
+                With 2 years of experience in software development and design, I specialize in crafting web and mobile apps using React, React Native, Node.js, and other top-tier technologies. My skills in Tailwind, Next.js, Express, and MaterialUI allow me to create elegant and efficient solutions.
                 </p>
 
                 <div>
