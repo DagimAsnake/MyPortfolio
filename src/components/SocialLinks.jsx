@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https:/linkedin.com/in/dagim-asnake-088302185',
+            href: 'https://linkedin.com/in/dagim-asnake-088302185',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     Github <FaGithub size={30} />
                 </>
             ),
-            href: 'https:/github.com/DagimAsnake'
+            href: 'https://github.com/DagimAsnake'
         },
         {
             id: 3,
