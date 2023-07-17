@@ -2,6 +2,7 @@ import React from 'react'
 import php from '../assets/certificate/Php.jpeg'
 import python from '../assets/certificate/python.png'
 import UdemyPython from '../assets/certificate/UdemyPython.jpg'
+import UdemyPyBeg from '../assets/certificate/UdemyPyBeg.jpg'
 
 const cert = [
   {
@@ -9,11 +10,15 @@ const cert = [
     src: php
   },
   {
+    id: 3,
+    src: UdemyPyBeg
+  },
+  {
     id: 2,
     src: UdemyPython
   },
   {
-    id: 3,
+    id: 4,
     src: python
   }
 ]
