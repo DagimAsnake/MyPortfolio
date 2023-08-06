@@ -129,6 +129,12 @@ const Experience = () => {
             alt: 'materialUi',
             style: 'shadow-blue-500'
         },
+        {
+            id: 22,
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+            alt: 'wordPress',
+            style: 'shadow-blue-500'
+        },
     ]
 
   return (
