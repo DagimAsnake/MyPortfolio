@@ -3,6 +3,7 @@ import php from '../assets/certificate/Php.jpeg'
 import python from '../assets/certificate/python.png'
 import UdemyPython from '../assets/certificate/UdemyPython.jpg'
 import UdemyPyBeg from '../assets/certificate/UdemyPyBeg.jpg'
+import Docker from "../assets/certificate/Docker.jpg" 
 
 const cert = [
   {
@@ -16,6 +17,10 @@ const cert = [
   {
     id: 2,
     src: UdemyPython
+  },
+  {
+    id: 5,
+    src: Docker
   },
   {
     id: 4,
