@@ -47,90 +47,96 @@ const Experience = () => {
         },
         {
             id: 8,
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+            alt: 'redux',
+            style: 'shadow-violet-600'
+        },
+        {
+            id: 9,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" ,
             alt: 'next',
             style: 'shadow-white'
         },
         {
-            id: 9,
+            id: 10,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
             alt: 'node',
             style: 'shadow-lime-500',
         },
         {
-            id: 10,
+            id: 11,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
             alt: 'express',
             style: 'shadow-white',
         },
         {
-            id: 11,
+            id: 12,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
             alt: 'mysql',
             style: 'shadow-blue-500'
         },
         {
-            id: 12,
+            id: 13,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
             alt: 'mongo',
             style: 'shadow-lime-500'
         },
         {
-            id: 13,
+            id: 14,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
             alt: 'git',
             style: 'shadow-red-600'
         },
         {
-            id: 14,
+            id: 15,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
             alt: 'github',
             style: 'shadow-gray-500'
         },
         {
-            id: 15,
+            id: 16,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
             alt: 'graphql',
             style: 'shadow-pink-500'
         },
         {
-            id: 16,
+            id: 17,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
             alt: 'java',
             style: 'shadow-blue-500'
         },
         {
-            id: 17,
+            id: 18,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
             alt: 'c++',
             style: 'shadow-pink-700'
         },
         {
-            id: 18,
+            id: 19,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
             alt: 'python',
             style: 'shadow-yellow-500'
         },
         {
-            id: 19,
+            id: 20,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
             alt: 'php',
             style: 'shadow-blue-500'
         },
         {
-            id: 20,
+            id: 21,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
             alt: 'django',
             style: 'shadow-green-700'
         },
         {
-            id: 21,
+            id: 22,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
             alt: 'materialUi',
             style: 'shadow-blue-500'
         },
         {
-            id: 22,
+            id: 23,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
             alt: 'wordPress',
             style: 'shadow-blue-500'
