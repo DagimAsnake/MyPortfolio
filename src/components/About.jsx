@@ -10,7 +10,7 @@ const About = () => {
 
         <p className='text-xl mt-20'>
           Hello, my name is Dagim Asnake and I'm a passionate Full Stack Developer with expertise in both Frontend and Backend Technologies.
-          I have hands-on experience with HTML, CSS, JavaScript, TypeScript, ReactJS, Material UI, NextJS, NodeJS, Express, Django, and databases such as MongoDB and MySQL.
+          I have hands-on experience with HTML, CSS, JavaScript, TypeScript, ReactJS, VueJS, Ant Design, Material UI, NextJS, wordPress, NodeJS, Express, Django, and databases such as MongoDB and MySQL.
           I also have experience with React Native for mobile app development.
           I am a firm believer in Agile Methodology and have collaborated on projects utilizing these technologies, delivering top-notch solutions that have exceeded client expectations.
           I am always eager to learn and grow, and am excited to be part of a team that is dedicated to creating innovative solutions that make a positive difference in people's lives.
