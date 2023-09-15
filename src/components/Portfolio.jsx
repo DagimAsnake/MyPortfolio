@@ -8,11 +8,23 @@ import Hospital from '../assets/portfolio/Hospital.png'
 import IctPark from '../assets/portfolio/IctPark.png'
 import MeetUp from '../assets/portfolio/MeetUp.png'
 import Qoutes from '../assets/portfolio/Qoutes.png'
-
+import Monster from '../assets/portfolio/Monster.png'
 
 const Portfolio = () => {
 
   const portfolios = [
+    {
+      id:5,
+      src: Food,
+      demo: 'https://refoodorder.netlify.app/',
+      code: 'https://github.com/DagimAsnake/react-foodOrder'
+    },
+    {
+      id:10,
+      src: Monster,
+      demo: 'https://dagimasnake.github.io/vue-monsterGame/',
+      code: 'https://github.com/DagimAsnake/vue-monsterGame'
+    },
     {
       id:3,
       src: Ecommerce,
@@ -36,12 +48,6 @@ const Portfolio = () => {
       src: Expenses,
       demo: 'https://reaexpense.netlify.app/',
       code: 'https://github.com/DagimAsnake/react-expenses'
-    },
-    {
-      id:5,
-      src: Food,
-      demo: 'https://refoodorder.netlify.app/',
-      code: 'https://github.com/DagimAsnake/react-foodOrder'
     },
     {
       id:6,
