@@ -46,6 +46,12 @@ const Experience = () => {
             style: 'shadow-blue-600'
         },
         {
+            id: 24,
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+            alt: 'Vue',
+            style: 'shadow-green-300'
+        },
+        {
             id: 8,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
             alt: 'redux',
