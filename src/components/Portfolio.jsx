@@ -9,10 +9,17 @@ import IctPark from '../assets/portfolio/IctPark.png'
 import MeetUp from '../assets/portfolio/MeetUp.png'
 import Qoutes from '../assets/portfolio/Qoutes.png'
 import Monster from '../assets/portfolio/Monster.png'
+import Coach from '../assets/portfolio/coachApp.png'
 
 const Portfolio = () => {
 
   const portfolios = [
+    {
+      id:11,
+      src: Coach,
+      demo: 'https://coachapp.netlify.app',
+      code: 'https://github.com/DagimAsnake/vueCli-coachApp'
+    },
     {
       id:5,
       src: Food,
