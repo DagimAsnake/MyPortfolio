@@ -10,6 +10,7 @@ import MeetUp from '../assets/portfolio/MeetUp.png'
 import Qoutes from '../assets/portfolio/Qoutes.png'
 import Monster from '../assets/portfolio/Monster.png'
 import Coach from '../assets/portfolio/coachApp.png'
+import Shoe from '../assets/portfolio/Shoe.png'
 
 const Portfolio = () => {
 
@@ -31,6 +32,12 @@ const Portfolio = () => {
       src: Monster,
       demo: 'https://dagimasnake.github.io/vue-monsterGame/',
       code: 'https://github.com/DagimAsnake/vue-monsterGame'
+    },
+    {
+      id:12,
+      src: Shoe,
+      demo: 'https://next-shoe-comp.vercel.app/',
+      code: 'https://github.com/DagimAsnake/next-ShoeComp'
     },
     {
       id:3,
