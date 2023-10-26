@@ -5,6 +5,7 @@ import UdemyPython from '../assets/certificate/UdemyPython.jpg'
 import UdemyPyBeg from '../assets/certificate/UdemyPyBeg.jpg'
 import Docker from "../assets/certificate/Docker.jpg" 
 import UdemyReact from "../assets/certificate/UdemyReact.jpeg"
+import UdemyNextjs from "../assets/certificate/UdemyNextjs.jpg"
 
 const cert = [
   {
@@ -13,7 +14,7 @@ const cert = [
   },
   {
     id: 3,
-    src: UdemyPyBeg
+    src: UdemyNextjs
   },
   {
     id: 2,
