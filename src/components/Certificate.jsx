@@ -3,6 +3,7 @@ import php from '../assets/certificate/Php.jpeg'
 import python from '../assets/certificate/python.png'
 import UdemyPython from '../assets/certificate/UdemyPython.jpg'
 // import UdemyPyBeg from '../assets/certificate/UdemyPyBeg.jpg'
+// import UdemyGit from "../assets/certificate/UdemyGit.jpg"
 import Docker from "../assets/certificate/Docker.jpg" 
 import UdemyReact from "../assets/certificate/UdemyReact.jpeg"
 import UdemyNextjs from "../assets/certificate/UdemyNextjs.jpg"
