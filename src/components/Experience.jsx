@@ -99,12 +99,12 @@ const Experience = () => {
             alt: 'github',
             style: 'shadow-gray-500'
         },
-        {
-            id: 16,
-            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-            alt: 'graphql',
-            style: 'shadow-pink-500'
-        },
+        // {
+        //     id: 16,
+        //     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+        //     alt: 'graphql',
+        //     style: 'shadow-pink-500'
+        // },
         {
             id: 17,
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
@@ -146,6 +146,12 @@ const Experience = () => {
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
             alt: 'wordPress',
             style: 'shadow-blue-500'
+        },
+        {
+            id: 24,
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg",
+            alt: 'docker',
+            style: 'shadow-blue-700'
         },
     ]
 
